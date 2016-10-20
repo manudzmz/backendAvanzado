@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-20 13:08+0200\n"
+"POT-Creation-Date: 2016-10-20 13:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,14 @@ msgid "You are already following this user"
 msgstr "Ya estás siguiendo a este usuario"
 
 #: .\templates\hello.html:9
+msgid "English"
+msgstr "Inglés"
+
+#: .\templates\hello.html:9
+msgid "Spanish"
+msgstr "Español"
+
+#: .\templates\hello.html:10
 #, python-format
 msgid " Hello %(name)s "
 msgstr " Hola %(name)s "

@@ -20,7 +20,7 @@ import followers
 from Instagramos.views import hello
 
 urlpatterns = [
-    url(r'', hello),
+    url(r'^$', hello),
     url(r'^admin/', admin.site.urls),
     url(r'^api/', include('followers.urls')),
 ]
