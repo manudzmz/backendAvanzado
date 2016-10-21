@@ -9,6 +9,6 @@ def hello(request):
 
     session_language = request.session.get('lang')
     if session_language:
-        translation.activate(forced_language)
-        
+        translation.activate(session_language)
+
     return render(request, 'hello.html', {"name": request.GET.get("name", "John Doe")})
